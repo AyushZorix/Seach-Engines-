@@ -23,6 +23,5 @@ A high-performance C++ search engine designed for structured JSON datasets with 
 
 - **Language**: C++17/20
 - **JSON Library**: nlohmann/json (header-only)
-- **Build System**: CMake compatible
 - **Compiler Support**: GCC 7+, Clang 6+, MSVC 2019+
 
