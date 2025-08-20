@@ -95,7 +95,7 @@ int main() {
     string field;
     cin >> field;
 
-    cout << "Enter search keyword: ";
+    cout << "Enter search keyword -  ";
     cin.ignore();
     string keyword;
     getline(cin, keyword);
