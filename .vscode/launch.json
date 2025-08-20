@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ayushbhandari/Desktop/KnitSpace",
+      "program": "/Users/ayushbhandari/Desktop/KnitSpace/build/Debug/outDebug"
+    }
+  ]
+}
