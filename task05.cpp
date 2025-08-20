@@ -4,26 +4,26 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-#include "json.hpp"  // nlohmann JSON
+#include "json.hpp"  
 
 using json = nlohmann::json;
 using namespace std;
 
-// Helper to lowercase strings
+
 string toLower(const string &s) {
     string temp = s;
     transform(temp.begin(), temp.end(), temp.begin(), ::tolower);
     return temp;
 }
 
-// Helper to trim spaces
+
 string trim(const string &s) {
     size_t start = s.find_first_not_of(" \t\n\r");
     size_t end = s.find_last_not_of(" \t\n\r");
     return (start == string::npos) ? "" : s.substr(start, end - start + 1);
 }
 
-// Exact match query
+
 void query(const vector<map<string,string>> &dataset, const string &field, const string &search, vector<map<string,string>> &result) {
     for (auto &entry : dataset) {
         if (entry.count(field) && toLower(trim(entry.at(field))) == toLower(search)) {
@@ -44,7 +44,7 @@ void query(const vector<map<string,string>> &dataset, const string &field, const
     cout << endl;
 }
 
-// Similar match query
+
 void similarquery(const vector<map<string,string>> &dataset, const string &field, const string &search, const vector<map<string,string>> &exactResult) {
     cout << "Similar matches:\n";
     bool found = false;
@@ -75,7 +75,7 @@ int main() {
     json j;
     infile >> j;
 
-    // Convert JSON array to vector<map<string,string>> with trimming
+  
     vector<map<string,string>> dataset;
     for (auto &item : j) {
         map<string,string> entry;
