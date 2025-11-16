@@ -1,0 +1,26 @@
+{
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "questions": "Here are 10 clear, specific questions that can be directly answered using only the text:\n\n1.  What is the name of the city's new museum?\n2.  What was the ambitious vision for the museum's intelligent digital guide?\n3.  How did visitors initially feel about the digital guide's experience?\n4.  What specific story did the digital guide tell a group of students about a painting?\n5.  What was the painting actually, according to the museum",
+      "critique_by_model": {
+        "gpt2": "1. Yes - Yes - heuristics detect relevant keywords. 4/10 keyword hits (0.40).\n2. Yes - Yes - heuristics detect relevant keywords. 2/4 keyword hits (0.50).\n3. Yes - Yes - heuristics detect relevant keywords. 5/6 keyword hits (0.83).\n4. Yes - Yes - heuristics detect relevant keywords. 4/6 keyword hits (0.67).\n5. Yes - Yes - heuristics detect relevant keywords. 7/8 keyword hits (0.88).\n6. Yes - Yes - heuristics detect relevant keywords. 3/4 keyword hits (0.75).\nSUMMARY: 6/6 questions are answerable\n\nExplanation: Heuristic fallback used because model call failed.",
+        "EleutherAI/gpt-neo-125M": "1. Yes - Yes - heuristics detect relevant keywords. 4/10 keyword hits (0.40).\n2. Yes - Yes - heuristics detect relevant keywords. 2/4 keyword hits (0.50).\n3. Yes - Yes - heuristics detect relevant keywords. 5/6 keyword hits (0.83).\n4. Yes - Yes - heuristics detect relevant keywords. 4/6 keyword hits (0.67).\n5. Yes - Yes - heuristics detect relevant keywords. 7/8 keyword hits (0.88).\n6. Yes - Yes - heuristics detect relevant keywords. 3/4 keyword hits (0.75).\nSUMMARY: 6/6 questions are answerable\n\nExplanation: Heuristic fallback used because model call failed."
+      },
+      "counts_by_model": {
+        "gpt2": 6,
+        "EleutherAI/gpt-neo-125M": 6
+      },
+      "unanimous_all_yes": true,
+      "average_yes": 6.0,
+      "combined_critique": "--- Critique by gpt2 ---\n1. Yes - Yes - heuristics detect relevant keywords. 4/10 keyword hits (0.40).\n2. Yes - Yes - heuristics detect relevant keywords. 2/4 keyword hits (0.50).\n3. Yes - Yes - heuristics detect relevant keywords. 5/6 keyword hits (0.83).\n4. Yes - Yes - heuristics detect relevant keywords. 4/6 keyword hits (0.67).\n5. Yes - Yes - heuristics detect relevant keywords. 7/8 keyword hits (0.88).\n6. Yes - Yes - heuristics detect relevant keywords. 3/4 keyword hits (0.75).\nSUMMARY: 6/6 questions are answerable\n\n--- Critique by EleutherAI/gpt-neo-125M ---\n1. Yes - Yes - heuristics detect relevant keywords. 4/10 keyword hits (0.40).\n2. Yes - Yes - heuristics detect relevant keywords. 2/4 keyword hits (0.50).\n3. Yes - Yes - heuristics detect relevant keywords. 5/6 keyword hits (0.83).\n4. Yes - Yes - heuristics detect relevant keywords. 4/6 keyword hits (0.67).\n5. Yes - Yes - heuristics detect relevant keywords. 7/8 keyword hits (0.88).\n6. Yes - Yes - heuristics detect relevant keywords. 3/4 keyword hits (0.75).\nSUMMARY: 6/6 questions are answerable\n"
+    }
+  ],
+  "gemini_initial_explanation": "",
+  "total_iterations": 1,
+  "failure_reasons": {
+    "gemini": "",
+    "gpt2": "",
+    "EleutherAI/gpt-neo-125M": ""
+  }
+}
