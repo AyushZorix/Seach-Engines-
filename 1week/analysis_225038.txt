@@ -1,0 +1,32 @@
+COMPLETE TEXT ANALYSIS
+==================================================
+
+Word Count: 436
+Text Preview: The city’s new Museum of Many Truths opened with great excitement. Its vision was
+ambitious: to create an intelligent digital guide that could tell stories about every artifact,
+answer visitor questio...
+
+AGENT 1 - QUESTION GENERATOR:
+------------------------------
+Error: 'parts'
+
+AGENT 2 - QUESTION VERIFIER:
+------------------------------
+No questions to verify
+
+AGENT 3 - QUESTION IMPROVER:
+------------------------------
+Error: 'parts'
+
+KEYWORDS:
+------------------------------
+guide (5)
+museum (4)
+system (4)
+every (3)
+even (3)
+one (3)
+new (2)
+digital (2)
+could (2)
+tell (2)

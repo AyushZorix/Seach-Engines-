@@ -1,0 +1,31 @@
+TEXT ANALYSIS RESULTS
+==================================================
+
+Word Count: 436
+Text Preview: The city’s new Museum of Many Truths opened with great excitement. Its vision was
+ambitious: to create an intelligent digital guide that could tell st...
+
+AGENT 1 - INITIAL QUESTIONS:
+------------------------------
+Error: API request failed after retries
+
+AGENT 2 - CRITIQUE:
+------------------------------
+No questions to critique.
+
+AGENT 3 - VALIDATED QUESTIONS:
+------------------------------
+Could not generate validated questions due to lack of critique.
+
+KEYWORDS:
+------------------------------
+guide (5)
+museum (4)
+system (4)
+every (3)
+even (3)
+one (3)
+new (2)
+digital (2)
+could (2)
+tell (2)
